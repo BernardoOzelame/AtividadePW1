@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2? family= M+PLUS+Rounded+1c:wght@300;700 & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+div{
+    border: solid 1px black;
+}
+#topo{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg');
+}
+#cabecalho{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#corpo{
+    flex-grow: 1;
+    text-align: center;
+}
+#rodape{
+    height: 100px;
+}
+#rodape1{
+    display: flex;
+    flex-direction: row;
+}
+.pixel{
+    color: white;
+    font-size: 70px;
+    margin-top: 60px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.perfect{
+    color: rgb(9, 77, 236);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.subtit{
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 17px;
+}
+.botao{
+    border: solid 3px rgb(9, 77, 236);
+    color: white;
+    background-color: transparent;
+    border-radius: 20px 20px 20px 20px;
+    width: 180px;
+    height: 30px;
+}
+.kanter{
+    color: white;
+    border: solid 2px white;
+    background-color: transparent;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.menus{
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
