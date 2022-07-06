@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     background-size: cover;
-    background-image: url('https://t3.ftcdn.net/jpg/03/02/04/06/360_F_302040655_IEH9RyDlu7LL8YCLjgL1IskhrpOlmlSv.jpg');
+    background-image: url('https://wallpaperaccess.com/full/2416004.jpg');
 }
 #cabecalho{
     height: 50px;
@@ -46,7 +46,7 @@ body{
 .pixel{
     color: white;
     font-size: 100px;
-    margin-top: 100px;
+    margin-top: 120px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .perfect{
@@ -59,19 +59,29 @@ body{
     font-size: 20px;
 }
 .botao{
-    border: solid 3px rgb(9, 77, 236);
+    border: solid 3px rgb(80, 169, 228);
     color: white;
     background-color: transparent;
     border-radius: 20px 20px 20px 20px;
     width: 180px;
-    margin-top: 150px;
+    margin-top: 70px;
     padding: 12px 15px;
     text-align: center;
 }
+.botao2{
+    border: solid 3px gray;
+    color: white;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 25px;
+    margin-top: 170px;
+    padding: 5px;
+    text-align: center;
+}
 .kanter{
-    padding: 10px 20px;
-    margin-left: 50px;
-    margin-top: 30px;
+    padding: 10px 15"px;
+    margin-left: 70px;
+    margin-top: 70px;
     color: white;
     border: solid 2px white;
     background-color: transparent;
@@ -84,10 +94,32 @@ body{
     justify-content: space-between;
     list-style-type: none;
     text-transform: uppercase;
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-top: 70px;
+    margin-right: 50px;
 }
 
 .menus>li{
-    margin: 0px 6px;
+    margin: 0px 8px;
+}
+.fundo1{
+    background-color: #040200;
+    color: white;
+}
+.fundo2{
+    background-color: #0b110f;
+    color: white;
+}
+.rp{
+    color: white;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+}
+.rp2{
+    margin-top: 20px;
+}
+.sp{
+font-size: 22px;
+}
+.icon{
+    font-size: 50px;
 }
